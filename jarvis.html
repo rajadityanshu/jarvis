@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Koulen&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="banner">
+      <video autoplay muted loop>
+        <source src="bg1.mp4" type="video/mp4" />
+      </video>
+
+      <div class="content">
+        <div class="text">
+          <h1>Command</h1>
+          <h3 id="result"></h3>
+        </div>
+      </div>
+      <div class="btn">
+        <h3 style="color: aqua">
+          <button onclick="help()"class="btn-info">Help</button>
+        </h3>
+
+        <h3><a href="mailto:rajadityanshu@gmail.com">Mail_Me</a></h3>
+    
+        <h3><a href="#" style="color: red">Any issue</a></h3>
+      </div>
+      <div class="clock1">
+        <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+      </div>
+      <div class="uses1">
+        <div class="uses">
+          <p>To start: click in middle of circular object</p>
+          <p>Give voice commmands</p>
+          <p>To open istagram: open instagram</p>
+
+          <p>To open youtube: open youtube</p> 
+           <p>To open facebook: open facebook</p>
+
+
+          <p>To start music: play music</p>
+          <p>to thank: thank you</p>
+
+          <button onclick="uses()" type="button" class="btn btn-info">
+            Next-->
+          </button>
+        </div>
+        <div class="uses2">
+          
+          <p>to get time & date:hey jarvis,whats the day</p>
+
+          <p>to listen Joke:hey jarvis,tell me a joke</p>
+<p>to open whatsapp:open whatsapp</p>
+          <p>to close:hey jarvis,close</p>
+
+          <p style="color: red;">to abuse:hey jarvis,its showTime</p>
+          <h3><button onclick="closeuses()" class="btn-info">close</button></h3>
+        </div>
+      </div>
+      <div id="button" onclick="react()" class="square"></div>
+  <div class="ss">
+<h2 id="lis">listening..</h2>
+  </div>
+  <div class="uname">
+    <h2 id="uname"></h2>
+  </div>
+  <div class="popup">
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong>All Set!</strong> Click the cross to start.
+      <button onclick="MyAudio()" type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+  </div>
+    </div>
+    <script src="1.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

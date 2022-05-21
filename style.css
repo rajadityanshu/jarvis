@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Orbitron:wght@600&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Koulen', cursive;
+    overflow: hidden;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.banner .content{
+    position:absolute;
+    z-index: 1;
+    max-width: 150px;
+ text-align: center;
+ margin: 0 auto;
+ right:60px;
+ margin-bottom:  40vh; 
+}
+h1{
+    color: rgb(0, 247, 239);
+    font-family: 'Koulen', cursive;
+  
+}
+h3{
+    color: aliceblue;
+    font-size: 15px;
+    font-family: 'Koulen', cursive;
+}
+.banner .btn{
+    position:absolute;
+    z-index: 1;
+    max-width: 100px;
+ text-align: center;
+
+ margin: 0 auto;
+        left: 5%;
+}
+.clock1{
+    position:absolute;
+    z-index: 1;
+    max-width: 100px;
+ text-align: center;
+ margin: 0 auto;
+ left: 15%;
+margin-bottom: 21%;
+
+
+}
+.clock {
+    transform: translateX(-50%) translateY(-50%);
+    color: #17D4FE;
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 7px
+
+}
+.uses1{
+    background-color: black;
+    border-radius: 20px;
+    border: 1px solid aqua;
+   visibility: hidden;
+    position:absolute;
+    z-index: 1;
+    max-width: 90%;
+    height: 90vh;
+ text-align: center;
+ margin: 0 auto;
+
+ 
+}
+.uses2{
+visibility: hidden;
+    position: absolute;
+    top: 10px;
+    margin-left: 10px;
+}
+p{
+    color: gainsboro;
+}
+.square{  background-color:transparent;
+    height: 70px;
+    width: 70px;
+    position:absolute;
+    z-index: 1;
+
+ margin: 0 auto;
+  color: #17D4FE;
+}
+.square button{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    color: red;
+    
+}
+.ss{
+    position:absolute;
+    z-index: 1;
+    max-width: 100px;
+ text-align: center;
+ margin: 0 auto;
+ top: 5vh;
+color: aquamarine;
+text-shadow: 2px aqua;
+animation: bg-pulse 1.5s ease-in-out infinite;
+visibility: hidden;
+}
+
+   
+@keyframes bg-pulse{
+    0%{
+color: aqua;
+    }
+    50%{
+      color: transparent;
+    }
+    100%{
+       color: aqua;
+    }
+}
+.uname{
+    z-index: 1;
+    position: absolute;
+    top: 5%;
+    right: 30vw;
+      }
+      .uname h2{
+          font-weight: bold;
+          color: azure;
+          
+            background-color: #f3ec78;
+            background-image: linear-gradient(45deg, aqua, #fff , aqua);
+            background-size: 100%;
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            -webkit-text-fill-color: transparent; 
+            -moz-text-fill-color: transparent;
+        }
+        .popup{
+            position:absolute;
+            z-index: 1;
+            
+         text-align: center;
+        }

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Orbitron:wght@600&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Koulen', cursive;
+    overflow: hidden;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .banner video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    }
+.banner .content{
+  
+    z-index: 1;
+   visibility: hidden;
+   position: relative;
+   margin-bottom:60vh;
+}
+.banner .content .c1{
+    opacity: 0.6;
+    height: 100vh;
+    width: 100vw;
+  background-color: black;
+   
+}
+.banner .txt{
+   z-index: 1;
+   position: absolute;
+   justify-content: center;
+   align-items: center;
+
+}
+.txt h1 
+{
+    font-size: xx-large;
+   color: black;
+    font-weight: bold;
+    
+}
+.name{
+    position: absolute;
+    top: 0;
+}
